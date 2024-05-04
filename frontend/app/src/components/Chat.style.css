@@ -1,0 +1,18 @@
+.yourMes {
+  display: block;
+  padding: 16px;
+  background-color: lightblue;
+  width: 80%;
+  display: inline-grid;
+  justify-self: center;
+  color: #f0f9ff;
+  height: fit-content;
+  margin: 0;
+}
+
+.userMes {
+  display: block;
+  padding: 16px;
+  background-color: hotpink;
+  width: 80%;
+}
