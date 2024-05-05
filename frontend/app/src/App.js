@@ -6,7 +6,7 @@ import "./app-style.css";
 import { Chat } from "./components/chat/Chat";
 import { ChatForm } from "./components/ChatForm/ChatForm";
 
-import SigninForm from "./components/SigninForm";
+import SigninForm from "./components/SigninForm/SigninForm";
 import { useCallback, useEffect, useState } from "react";
 
 const socket = io.connect("http://localhost:3001");

@@ -8,6 +8,7 @@ input {
   grid-area: i;
   padding: 12px;
   border-radius: 16px;
+  word-break: break-all;
 }
 
 button {
