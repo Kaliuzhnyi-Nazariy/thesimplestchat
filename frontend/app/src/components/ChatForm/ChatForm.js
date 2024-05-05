@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./ChatForm.style.css";
 
 export const ChatForm = ({ onSubmit }) => {
   const [state, setState] = useState({

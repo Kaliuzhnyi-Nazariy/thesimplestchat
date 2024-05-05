@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: inline-grid;
+  justify-self: center;
+  overflow-y: scroll;
+}
+
+.yourMes {
+  display: block;
+  padding: 16px;
+  background-color: lightblue;
+  display: inline-grid;
+  justify-self: right;
+  color: #f0f9ff;
+  height: fit-content;
+  margin: 4px 2px;
+  border-radius: 16px 16px 0 16px;
+}
+
+.userMes {
+  display: block;
+  padding: 16px;
+  background-color: hotpink;
+  display: inline-grid;
+  justify-self: left;
+  color: #f0f9ff;
+  height: fit-content;
+  margin: 4px 2px;
+  border-radius: 16px 16px 16px 0;
+}

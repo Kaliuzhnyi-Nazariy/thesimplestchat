@@ -1,0 +1,16 @@
+form {
+  display: grid;
+  gap: 4px;
+  grid-template-areas: "i i i i i i b";
+}
+
+input {
+  grid-area: i;
+  padding: 12px;
+  border-radius: 16px;
+}
+
+button {
+  grid-area: b;
+  border-radius: 16px;
+}

@@ -1,0 +1,24 @@
+body {
+  background-color: violet;
+  padding: 0 24px;
+  height: max-content;
+}
+
+.app-style {
+  margin: 0 auto;
+}
+
+.app-cont {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.try {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  height: calc(100vh - 72px);
+}
